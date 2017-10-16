@@ -27,7 +27,7 @@ public class Catalogue {
 		produit1.setId("P1");
 		produit1.setNom("Mac");
 		produit1.setDescription("Magnifique ordinateur puissant et design");
-		produit1.setImage("images/mac.png");
+		produit1.setImage("https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macos/macos-sierra-update-software-app-store-hero.jpg");
 		produit1.setDateDeDisponibilite(LocalDate.of(1991, 10, 2));
 
 		Prix prix1 = new Prix();
@@ -39,7 +39,7 @@ public class Catalogue {
 		produit2.setId("P2");
 		produit2.setNom("PSP");
 		produit2.setDescription("Meilleure console de tous les temps");
-		produit2.setImage("images/psp.png");
+		produit2.setImage("https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Psp-1000.jpg/1200px-Psp-1000.jpg");
 		produit2.setDateDeDisponibilite(LocalDate.of(1991, 1, 29));
 
 		Prix prix2 = new Prix();
@@ -51,7 +51,7 @@ public class Catalogue {
 		produit3.setId("P3");
 		produit3.setNom("Raspberry Pi 3");
 		produit3.setDescription("Mini ordinateur permettant d'apprendre l'informatique de zéro");
-		produit3.setImage("images/rpi3.png");
+		produit3.setImage("https://www.newark.com/productimages/nio/standard/77Y6519-40.jpg?01AD=3VkClHQrNEwoZ8fMu2CjhaTin1QYRh4YuZx45QvbKLEKP2nsr6bfr-Q&01RI=1F0925DB6C11A56&01NA=");
 		produit3.setDateDeDisponibilite(LocalDate.of(1991, 2, 1));
 
 		Prix prix3 = new Prix();
@@ -63,8 +63,8 @@ public class Catalogue {
 		produit4.setId("P4");
 		produit4.setNom("Iphone X");
 		produit4.setDescription("Le téléphone du moment");
-		produit4.setImage("images/iphonex.png");
-		produit4.setDateDeDisponibilite(LocalDate.of(1991, 6, 31));
+		produit4.setImage("https://store.storeimages.cdn-apple.com/4974/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone/x/iphone-x-select-2017?wid=189&hei=376&fmt=png-alpha&qlt=95&.v=1504378258086");
+		produit4.setDateDeDisponibilite(LocalDate.of(1991, 6, 30));
 
 		Prix prix4 = new Prix();
 		prix4.setPrixEuro(1499.99f);
